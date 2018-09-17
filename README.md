@@ -1,1 +1,1 @@
-# ReactTopPerformancePattern
+# React Top Performance Pattern
