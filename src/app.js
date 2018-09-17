@@ -3,7 +3,7 @@ import {render} from 'react-dom';
 
 class App extends Component {
     render () {
-        return <h1>React run properly</h1>
+        return <h1>React run properly1</h1>
     }
 }
 
