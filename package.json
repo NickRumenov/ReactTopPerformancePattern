@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/NickRumenov/ReactTopPerformancePattern/issues"
   },
-  "homepage": "https://github.com/NickRumenov/ReactTopPerformancePattern#readme"
+  "homepage": "https://github.com/NickRumenov/ReactTopPerformancePattern#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
