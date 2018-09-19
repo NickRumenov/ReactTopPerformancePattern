@@ -1,10 +1,18 @@
-import React, { Component, PropTypes } from 'react';
-import {render} from 'react-dom';
+import React, { Component } from 'react';
+import Statistics from "./components/Statistics";
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
 class App extends Component {
-    render () {
-        return <h1>React run properly1</h1>
+    render() {
+        return (
+            <div className="App">
+                <Nav/>
+                <Statistics/>
+                <Footer/>
+            </div>
+        );
     }
 }
 
-render(<App/>, document.getElementById('container'));
+export default App;
