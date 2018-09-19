@@ -1,6 +1,5 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -15,9 +14,6 @@ module.exports = {
         },
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
-    },
-    resolve:{
-        extensions: [' ','.js','.jsx']
     },
     module:{
         rules:[{
