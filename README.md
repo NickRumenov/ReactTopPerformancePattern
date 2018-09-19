@@ -4,10 +4,13 @@
 ``npm install``
 
 PLEASE NOTE: Since we use Webpack 4.19 we have to change in our local node_modules
+
 node_modules/file-loader/dist/index.js:34 with the following
 
 ``
 -- var context = options.context || this.options.context;
+``
+``
 ++ var context = options.context || this.rootContext;
 ``
 
