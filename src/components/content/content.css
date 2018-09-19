@@ -1,0 +1,8 @@
+.wrapper{
+    background: url('../../assets/hero-wallpaper.png') 50% 0;
+    height: 710px;
+    overflow-x: hidden;
+}
+.card{
+    margin: 100px 8%;
+}

@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import Statistics from "./components/Statistics";
+import Content from "./components/content/content";
 import Nav from "./components/Nav";
 import Footer from "./components/Footer";
+import './index.css'
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
+            <div id={'container'}>
                 <Nav/>
-                <Statistics/>
+                <Content/>
                 <Footer/>
             </div>
         );

@@ -20,9 +20,12 @@ module.exports = {
             test: /\.jsx?$/,
             exclude:/node_modules/,
             loader: 'babel-loader'
-        },{
+        }/*,{
             test: /\.scss$/,
-            loader: 'style-loader!css-loader!sass!resolve-url!sass?sourceMap&sourceComments'
+            loader: 'style-loader!scss-loader!scss!resolve-url!scss$?sourceMap&sourceComments'
+        }*/,{
+            test: /\.sass$/,
+            loader: 'style-loader!sass$-loader!sass!resolve-url!sass?sourceMap&sourceComments'
         },{
             test: /\.css$/,
             loader: 'style-loader!css-loader?importLoaders=1'
