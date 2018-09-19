@@ -10,6 +10,7 @@ node_modules/file-loader/dist/index.js:34 with the following
 ``
 -- var context = options.context || this.options.context;
 ``
+
 ``
 ++ var context = options.context || this.rootContext;
 ``
