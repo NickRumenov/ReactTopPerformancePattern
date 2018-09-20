@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Content from "./components/content/content";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
+import Nav from "./components/nav/nav";
 import './index.css'
 
 class App extends Component {
@@ -10,7 +9,6 @@ class App extends Component {
             <div id={'container'}>
                 <Nav/>
                 <Content/>
-                <Footer/>
             </div>
         );
     }
