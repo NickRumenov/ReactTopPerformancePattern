@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Content from "./components/content/content";
-import Nav from "./components/nav/nav";
+import Content from "./containers/content/content";
+import Nav from "./containers/nav/nav";
 import './index.css'
 
 class App extends Component {
