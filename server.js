@@ -8,23 +8,23 @@ const PORT = 8080
 const HOST = '0.0.0.0'
 
 const mysql = require('mysql');
-var connection = mysql.createConnection({
-    host: '0.0.0.0',
+const connection = mysql.createConnection({
+    host: 'localhost',
     port: 3306,
     user: 'root',
-    password: 'root',
+    password: 'user1',
 });
 
 connection.connect((function(err) {
     if (err) {
-        console.error('=============================== error connecting: ' + err.stack);
+        console.error('======================= error connecting: ' + err.stack);
         return;
     }
-    console.log(connection)
+    console.log('======================= Linux and MySQL connected successfully !')
 }));
-connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
+connection.query('SHOW DATABASES;', function (error, results, fields) {
     if (error) throw error;
-    console.log('The solution is: ', results);
+    console.log(results)
 });
 connection.end();
 
@@ -34,8 +34,3 @@ app.get('/', function (req, res){
 
 app.listen(PORT, HOST)
 console.log(`Running on http://${HOST}:${PORT}`)
-
-    `GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'newpassword';`
-`docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql`
-`docker run -e MYSQL_PASSWORD=root MYSQL_USER=root -p 3306:3306 -d mysql --name mysql`
-'docker run --name mysql-instance -e MYSQL_ROOT_PASSWORD=root MYSQL_PASSWORD=root MYSQL_USER=root MYSQL_DATABASE=stats -d mysql'

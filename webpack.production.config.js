@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-    /*mode: 'production',
+    mode: 'production',
     entry: './src/App.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -13,5 +13,5 @@ module.exports = {
             exclude:/node_modules/,
             loader: 'babel-loader'
         }]
-    }*/
+    }
 }

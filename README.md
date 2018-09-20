@@ -29,3 +29,16 @@ Finally:
 ``npm run build``
 ### Run in your browser
 ``http://localhost:49160/``
+
+### For the Server-Side we use **linuxserver/mysql** image
+some server side commands
+
+``docker exec -it mysql /bin/bash``
+
+``mysql -u root -p ``
+
+enter password 
+
+then we have command prompt 
+
+``mysql>``               
