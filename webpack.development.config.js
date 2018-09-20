@@ -9,9 +9,9 @@ module.exports = {
         filename: 'app.js'
     },
     devServer: {
-        proxy: {
+        /*proxy: {
             '/api': 'http://localhost:8080'
-        },
+        },*/
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
     },

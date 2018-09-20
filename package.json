@@ -4,8 +4,9 @@
   "description": "NodeJS/ReactJS Application",
   "main": "server.js",
   "scripts": {
-    "build": "webpack --config webpack.production.config.js",
     "dev": "webpack-dev-server --config webpack.development.config.js",
+    "build": "webpack --config webpack.production.config.js",
+    "prod": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
