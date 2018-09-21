@@ -22,19 +22,17 @@ connection.connect((function(err) {
     }
     console.log('======================= Linux and MySQL connected successfully !')
 }));
-connection.query('SHOW DATABASES;', function (error, results, fields) {
+/*connection.query('SHOW DATABASES;', function (error, results, fields) {
     if (error) throw error;
-    console.log(results)
-});
+});*/
 connection.end();
 
 app.get('/', function (req, res){
     res.sendFile(__dirname + '/dist/index.html')
 })
 
-app.get('/top4', function (req, res){
-    console.log(res);
-    return res;
+app.get('/top4', function (req, success){
+    success.send('ss');
 })
 
 app.listen(PORT, HOST)
