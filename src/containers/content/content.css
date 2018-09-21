@@ -2,10 +2,43 @@
     background: url('../../assets/hero-wallpaper.png') 50% 0;
     height: 710px;
     overflow-x: hidden;
+    padding: 0 4%;
 }
 .card{
     margin: 120px 8% 0 8%;
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+/*TODO fix DRY*/
+.premier_league{
+    background: url('../../assets/league_logos/premier_league.png') 50% 0;
+    height: 60px;
+    width: 60px;
+}
+.serie_a{
+    background: url('../../assets/league_logos/serie_a.png') 50% 0;
+    height: 60px;
+    width: 60px;
+}
+.la_liga{
+    background: url('../../assets/league_logos/la_liga.png') 50% 0;
+    height: 60px;
+    width: 60px;
+}
+.bundesliga{
+    background: url('../../assets/league_logos/bundesliga.png') 50% 0;
+    height: 60px;
+    width: 60px;
+}
+.card-title{
+    display: flex;
+    height: 60px;
+    line-height: 60px;
+    padding-right: 20px;
+}
+.league-name{
+    font-size: 22px;
+    margin: 0 auto;
+    font-weight: bold;
 }

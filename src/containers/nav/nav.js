@@ -23,7 +23,6 @@ class Nav extends React.Component {
             collapse: false,
             isWideEnough: false,
         };
-        this.onClick = this.onClick.bind(this)
     }
 
     render() {
