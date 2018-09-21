@@ -32,5 +32,10 @@ app.get('/', function (req, res){
     res.sendFile(__dirname + '/dist/index.html')
 })
 
+app.get('/top4', function (req, res){
+    console.log(res);
+    return res;
+})
+
 app.listen(PORT, HOST)
 console.log(`Running on http://${HOST}:${PORT}`)

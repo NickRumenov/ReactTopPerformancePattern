@@ -2,10 +2,10 @@
     background: url('../../assets/hero-wallpaper.png') 50% 0;
     height: 710px;
     overflow-x: hidden;
-    padding: 0 4%;
+    padding: 0 2%;
 }
 .card{
-    margin: 120px 8% 0 8%;
+    margin: 100px 2% 0 2%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -35,7 +35,8 @@
     display: flex;
     height: 60px;
     line-height: 60px;
-    padding-right: 20px;
+    padding-right: 40px;
+    margin: 0;
 }
 .league-name{
     font-size: 22px;

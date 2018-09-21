@@ -1,6 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 import Card from '@material-ui/core/Card';
 import Grid from '@material-ui/core/Grid';
+import Ranking from '../ranking/Ranking';
 import config from '../../config.js';
 import './content.css';
 
@@ -22,6 +23,7 @@ class Content extends Component {
                                     <img className={league.logo}/>
                                     <p className={'league-name'}>{league.name}</p>
                                 </header>
+                                <Ranking/>
                             </Card>
                         </Grid>
                     ))}
