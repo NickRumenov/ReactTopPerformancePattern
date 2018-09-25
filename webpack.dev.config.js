@@ -8,13 +8,13 @@ module.exports = {
         path: path.resolve(__dirname, 'src'),
         filename: 'index.js'
     },
-    /*devServer: {
+    devServer: {
         proxy: {
             '/api': 'http://localhost:8080'
         },
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
-    },*/
+    },
     module:{
         rules:[{
             test: /\.jsx?$/,

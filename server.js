@@ -12,7 +12,7 @@ const HOST = '0.0.0.0'
  * it should looks like: 'node server.js dev'
  * we have two environments so far - dev and prod
  */
-const args = process.argv.slice(2)
+/*const args = process.argv.slice(2)
 const environment = args[0]
 
 let appFolder = '';
@@ -23,9 +23,9 @@ if (environment === 'prod') {
 } else {
     console.log('You should add environment arguments as a first parameter')
     return;
-}
+}*/
 
-app.use(express.static(appFolder))
+app.use(express.static('dist'))
 
 const connection = mysql.createConnection({
     host: 'localhost',
@@ -59,7 +59,6 @@ app.get('/top4', function (req, success) {
         success.send(response);
     });
 })
-
 
 app.listen(PORT, HOST)
 console.log(`============= Running on http://${HOST}:${PORT}`)

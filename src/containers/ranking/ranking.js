@@ -28,6 +28,7 @@ class Ranking extends Component {
     }
 
     componentWillMount(nextProps) {
+
         fetch('http://localhost:8080/top4')
             .then(function (response) {
                 /*return response.json();*/
