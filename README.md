@@ -17,7 +17,9 @@ node_modules/file-loader/dist/index.js:34 with the following
 
 Finally:
 
-``npm run dev``
+``node server.js dev``
+
+``node server.js prod``
 
 ## How to run it with docker
 ### Build the image

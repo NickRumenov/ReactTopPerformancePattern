@@ -4,8 +4,8 @@
   "description": "NodeJS/ReactJS Application",
   "main": "server.js",
   "scripts": {
-    "dev": "webpack-dev-server --config webpack.development.config.js",
-    "build": "webpack --config webpack.production.config.js",
+    //"dev": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js",
     "prod": "npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
