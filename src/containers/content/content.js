@@ -15,8 +15,6 @@ class Content extends Component {
     }
 
     componentWillMount() {
-        debugger;
-        console.log('contenttttttttt')
         fetch('http://localhost:8080/top4')
             .then(function (response) {
                 return response.json();

@@ -14,8 +14,8 @@ function createData(name, calories, fat, carbs, protein) {
 }
 
 const rows = [
-    createData(2, 'Frozen', 6, 24, 4.0),
-    createData(3, 'Icecrea', 237, 9.0, 37, 4.3),
+    createData(2, 'Fren', 6, 24, 4.0),
+    createData(3, 'Icecea', 237, 9.0, 37, 4.3),
     createData(11, 'Eclair', 22, 16, 24, 6.0),
     createData(1, 'Cupcake', 305, 3.7, 67, 4.3),
     createData(22, 'Gingerb', 356, 16.0, 49, 3.9),

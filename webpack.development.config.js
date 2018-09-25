@@ -23,7 +23,7 @@ module.exports = {
         }/*,{
             test: /\.scss$/,
             loader: 'style-loader!scss-loader!scss!resolve-url!scss$?sourceMap&sourceComments'
-        },{
+        }*/,{
             test: /\.sass$/,
             loader: 'style-loader!sass$-loader!sass!resolve-url!sass?sourceMap&sourceComments'
         },{
@@ -32,7 +32,7 @@ module.exports = {
         },{
             test: /\.(png|woff|woff2|ttf|svg|eot)$/,
             loader: 'url-loader?limit=100000'
-        }*/]
+        }]
     },
     plugins: [
         new HtmlWebpackPlugin({
