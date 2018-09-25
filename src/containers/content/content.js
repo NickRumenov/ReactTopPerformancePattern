@@ -12,15 +12,13 @@ const {top4Leagues} = config;
 class Content extends Component {
     constructor(props) {
         super(props);
-    }
 
-    componentWillMount() {
         fetch('http://localhost:8080/top4')
             .then(function (response) {
                 return response.json();
             })
             .then(function (json) {
-                this.props.dispatch(fetchTop4Leagues(JSON.stringify(json)))
+                props.dispatch(fetchTop4Leagues(JSON.stringify(json)))
             });
     }
 
@@ -46,7 +44,6 @@ class Content extends Component {
 }
 
 const mapStateToProps = state => ({
-    fetchTop4Leagues: fetchTop4Leagues(state)
 })
 
 export default connect(

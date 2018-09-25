@@ -1,11 +1,8 @@
 
-
 const leagues = (state = [], action) => {
-    console.log(action);
-
     switch (action.type) {
         case 'TOP_4_LEAGUES':
-            return action.data
+            return action.payload
         default:
             return state
     }
