@@ -6,7 +6,6 @@ import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
-import {fetchTop4Leagues} from '../../actions/actions'
 
 import './ranking.css';
 
@@ -25,17 +24,6 @@ const rows = [
 class Ranking extends Component {
     constructor(props) {
         super(props);
-    }
-
-    componentWillMount(nextProps) {
-
-        fetch('http://localhost:8080/top4')
-            .then(function (response) {
-                /*return response.json();*/
-            })
-            .then(function (json) {
-                /*this.props.dispatch(fetchTop4Leagues(JSON.stringify(json)))*/
-            });
     }
 
     render() {
@@ -70,10 +58,4 @@ class Ranking extends Component {
     }
 }
 
-const mapStateToProps = state => ({
-    fetchTop4Leagues: fetchTop4Leagues(state)
-})
-
-export default connect(
-    mapStateToProps
-)(Ranking)
+export default Ranking
