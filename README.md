@@ -27,13 +27,17 @@ and open
 
 ``node server.js``
 
-Now, our app is running with prod files if we open localhost:8080 
-that`s why we have to open
+Now, our app runs with prod files if we open localhost:8080 
+that`s why we have to run
+
+``npm run dev``
+
+and open
 
 ``localhost:8081``
 
 Then the server is listening for http requests on port 8080
-and our app is running on the webpack dev server.
+and the app is running on the webpack dev server.
 
 ## How to run it with docker
 ### Build the image
