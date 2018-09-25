@@ -21,6 +21,7 @@
   "homepage": "https://github.com/NickRumenov/ReactTopPerformancePattern#readme",
   "dependencies": {
     "babel-preset-react": "^6.24.1",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "mdbreact": "^4.7.1",
     "mysql": "^2.16.0",

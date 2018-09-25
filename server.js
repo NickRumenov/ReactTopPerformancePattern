@@ -2,6 +2,7 @@
 
 const express = require('express')
 const mysql = require('mysql');
+var cors = require('cors')
 
 const app = express()
 const PORT = 8080
@@ -24,7 +25,7 @@ if (environment === 'prod') {
     console.log('You should add environment arguments as a first parameter')
     return;
 }*/
-
+app.use(cors())
 app.use(express.static('dist'))
 
 const connection = mysql.createConnection({
