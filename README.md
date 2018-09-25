@@ -30,7 +30,7 @@ and open
 Now, our app runs with prod files if we open localhost:8080 
 that`s why we have to run
 
-``npm run dev``
+``npm run dev`` (on another console)
 
 and open
 
