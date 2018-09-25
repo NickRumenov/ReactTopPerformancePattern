@@ -1,0 +1,1003 @@
+{
+  "filters": {},
+  "competition": {
+    "id": 2014,
+    "area": {
+      "id": 2224,
+      "name": "Spain"
+    },
+    "name": "Primera Division",
+    "code": "PD",
+    "plan": "TIER_ONE",
+    "lastUpdated": "2018-09-25T00:00:09Z"
+  },
+  "season": {
+    "id": 281,
+    "startDate": "2018-08-17",
+    "endDate": "2019-05-26",
+    "currentMatchday": 6
+  },
+  "standings": [
+    {
+      "stage": "REGULAR_SEASON",
+      "type": "TOTAL",
+      "group": null,
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg"
+          },
+          "playedGames": 5,
+          "won": 4,
+          "draw": 1,
+          "lost": 0,
+          "points": 13,
+          "goalsFor": 16,
+          "goalsAgainst": 5,
+          "goalDifference": 11
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg"
+          },
+          "playedGames": 5,
+          "won": 4,
+          "draw": 1,
+          "lost": 0,
+          "points": 13,
+          "goalsFor": 12,
+          "goalsAgainst": 3,
+          "goalDifference": 9
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg"
+          },
+          "playedGames": 5,
+          "won": 3,
+          "draw": 1,
+          "lost": 1,
+          "points": 10,
+          "goalsFor": 8,
+          "goalsAgainst": 5,
+          "goalDifference": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg"
+          },
+          "playedGames": 5,
+          "won": 2,
+          "draw": 2,
+          "lost": 1,
+          "points": 8,
+          "goalsFor": 10,
+          "goalsAgainst": 8,
+          "goalDifference": 2
+        },
+        {
+          "position": 5,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg"
+          },
+          "playedGames": 5,
+          "won": 2,
+          "draw": 2,
+          "lost": 1,
+          "points": 8,
+          "goalsFor": 5,
+          "goalsAgainst": 4,
+          "goalDifference": 1
+        },
+        {
+          "position": 6,
+          "team": {
+            "id": 298,
+            "name": "Girona FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/9/90/For_article_Girona_FC.svg"
+          },
+          "playedGames": 5,
+          "won": 2,
+          "draw": 2,
+          "lost": 1,
+          "points": 8,
+          "goalsFor": 7,
+          "goalsAgainst": 8,
+          "goalDifference": -1
+        },
+        {
+          "position": 7,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png"
+          },
+          "playedGames": 5,
+          "won": 2,
+          "draw": 1,
+          "lost": 2,
+          "points": 7,
+          "goalsFor": 10,
+          "goalsAgainst": 6,
+          "goalDifference": 4
+        },
+        {
+          "position": 8,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg"
+          },
+          "playedGames": 5,
+          "won": 2,
+          "draw": 1,
+          "lost": 2,
+          "points": 7,
+          "goalsFor": 5,
+          "goalsAgainst": 4,
+          "goalDifference": 1
+        },
+        {
+          "position": 9,
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebasti%C3%A1n.svg"
+          },
+          "playedGames": 5,
+          "won": 2,
+          "draw": 1,
+          "lost": 2,
+          "points": 7,
+          "goalsFor": 7,
+          "goalsAgainst": 7,
+          "goalDifference": 0
+        },
+        {
+          "position": 10,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_logo.png"
+          },
+          "playedGames": 5,
+          "won": 2,
+          "draw": 1,
+          "lost": 2,
+          "points": 7,
+          "goalsFor": 4,
+          "goalsAgainst": 4,
+          "goalDifference": 0
+        },
+        {
+          "position": 11,
+          "team": {
+            "id": 278,
+            "name": "SD Eibar",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg"
+          },
+          "playedGames": 5,
+          "won": 2,
+          "draw": 1,
+          "lost": 2,
+          "points": 7,
+          "goalsFor": 5,
+          "goalsAgainst": 6,
+          "goalDifference": -1
+        },
+        {
+          "position": 12,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg"
+          },
+          "playedGames": 4,
+          "won": 1,
+          "draw": 3,
+          "lost": 0,
+          "points": 6,
+          "goalsFor": 7,
+          "goalsAgainst": 6,
+          "goalDifference": 1
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg"
+          },
+          "playedGames": 5,
+          "won": 1,
+          "draw": 3,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2
+        },
+        {
+          "position": 14,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg"
+          },
+          "playedGames": 5,
+          "won": 1,
+          "draw": 2,
+          "lost": 2,
+          "points": 5,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1
+        },
+        {
+          "position": 15,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg"
+          },
+          "playedGames": 5,
+          "won": 0,
+          "draw": 4,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2
+        },
+        {
+          "position": 16,
+          "team": {
+            "id": 88,
+            "name": "Levante UD",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/1/1f/Levante_ud.svg"
+          },
+          "playedGames": 5,
+          "won": 1,
+          "draw": 1,
+          "lost": 3,
+          "points": 4,
+          "goalsFor": 8,
+          "goalsAgainst": 11,
+          "goalDifference": -3
+        },
+        {
+          "position": 17,
+          "team": {
+            "id": 299,
+            "name": "SD Huesca",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Sd_huesca.png"
+          },
+          "playedGames": 5,
+          "won": 1,
+          "draw": 1,
+          "lost": 3,
+          "points": 4,
+          "goalsFor": 6,
+          "goalsAgainst": 13,
+          "goalDifference": -7
+        },
+        {
+          "position": 18,
+          "team": {
+            "id": 250,
+            "name": "Real Valladolid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/6/6e/Real_Valladolid_Logo.svg"
+          },
+          "playedGames": 5,
+          "won": 0,
+          "draw": 3,
+          "lost": 2,
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2
+        },
+        {
+          "position": 19,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/1/12/Rayo_vallecano_madrid.svg"
+          },
+          "playedGames": 4,
+          "won": 1,
+          "draw": 0,
+          "lost": 3,
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 10,
+          "goalDifference": -7
+        },
+        {
+          "position": 20,
+          "team": {
+            "id": 745,
+            "name": "CD Leganés",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Legan%C3%A9s.png/180px-Club_Deportivo_Legan%C3%A9s.png"
+          },
+          "playedGames": 5,
+          "won": 0,
+          "draw": 1,
+          "lost": 4,
+          "points": 1,
+          "goalsFor": 4,
+          "goalsAgainst": 10,
+          "goalDifference": -6
+        }
+      ]
+    },
+    {
+      "stage": "REGULAR_SEASON",
+      "type": "HOME",
+      "group": null,
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg"
+          },
+          "playedGames": 3,
+          "won": 3,
+          "draw": 0,
+          "lost": 0,
+          "points": 9,
+          "goalsFor": 7,
+          "goalsAgainst": 1,
+          "goalDifference": 6
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 1,
+          "lost": 0,
+          "points": 7,
+          "goalsFor": 13,
+          "goalsAgainst": 4,
+          "goalDifference": 9
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg"
+          },
+          "playedGames": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "points": 6,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "goalDifference": 3
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 278,
+            "name": "SD Eibar",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 4,
+          "goalsAgainst": 3,
+          "goalDifference": 1
+        },
+        {
+          "position": 5,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "points": 5,
+          "goalsFor": 6,
+          "goalsAgainst": 4,
+          "goalDifference": 2
+        },
+        {
+          "position": 6,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 2,
+          "lost": 0,
+          "points": 5,
+          "goalsFor": 5,
+          "goalsAgainst": 4,
+          "goalDifference": 1
+        },
+        {
+          "position": 7,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1
+        },
+        {
+          "position": 8,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "goalDifference": 1
+        },
+        {
+          "position": 9,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_logo.png"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        },
+        {
+          "position": 10,
+          "team": {
+            "id": 298,
+            "name": "Girona FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/9/90/For_article_Girona_FC.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 4,
+          "goalsAgainst": 6,
+          "goalDifference": -2
+        },
+        {
+          "position": 11,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 3,
+          "goalsAgainst": 5,
+          "goalDifference": -2
+        },
+        {
+          "position": 12,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "points": 2,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": 745,
+            "name": "CD Leganés",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Legan%C3%A9s.png/180px-Club_Deportivo_Legan%C3%A9s.png"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 1,
+          "lost": 1,
+          "points": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "goalDifference": -1
+        },
+        {
+          "position": 14,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg"
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 1,
+          "lost": 2,
+          "points": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2
+        },
+        {
+          "position": 15,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 1,
+          "lost": 1,
+          "points": 1,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2
+        },
+        {
+          "position": 16,
+          "team": {
+            "id": 88,
+            "name": "Levante UD",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/1/1f/Levante_ud.svg"
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 1,
+          "lost": 2,
+          "points": 1,
+          "goalsFor": 5,
+          "goalsAgainst": 10,
+          "goalDifference": -5
+        },
+        {
+          "position": 17,
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebasti%C3%A1n.svg"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 0,
+          "lost": 1,
+          "points": 0,
+          "goalsFor": 1,
+          "goalsAgainst": 2,
+          "goalDifference": -1
+        },
+        {
+          "position": 18,
+          "team": {
+            "id": 250,
+            "name": "Real Valladolid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/6/6e/Real_Valladolid_Logo.svg"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 0,
+          "lost": 2,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2
+        },
+        {
+          "position": 19,
+          "team": {
+            "id": 299,
+            "name": "SD Huesca",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Sd_huesca.png"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 0,
+          "lost": 2,
+          "points": 0,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "goalDifference": -2
+        },
+        {
+          "position": 20,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/1/12/Rayo_vallecano_madrid.svg"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 0,
+          "lost": 2,
+          "points": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 9,
+          "goalDifference": -7
+        }
+      ]
+    },
+    {
+      "stage": "REGULAR_SEASON",
+      "type": "AWAY",
+      "group": null,
+      "table": [
+        {
+          "position": 1,
+          "team": {
+            "id": 92,
+            "name": "Real Sociedad de Fútbol",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/5/55/Real_Sociedad_San_Sebasti%C3%A1n.svg"
+          },
+          "playedGames": 4,
+          "won": 2,
+          "draw": 1,
+          "lost": 1,
+          "points": 7,
+          "goalsFor": 6,
+          "goalsAgainst": 5,
+          "goalDifference": 1
+        },
+        {
+          "position": 2,
+          "team": {
+            "id": 559,
+            "name": "Sevilla FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/8/86/Sevilla_cf_200px.png"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 10,
+          "goalsAgainst": 4,
+          "goalDifference": 6
+        },
+        {
+          "position": 3,
+          "team": {
+            "id": 263,
+            "name": "Deportivo Alavés",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/2/2e/Deportivo_Alaves_logo.svg"
+          },
+          "playedGames": 3,
+          "won": 2,
+          "draw": 0,
+          "lost": 1,
+          "points": 6,
+          "goalsFor": 6,
+          "goalsAgainst": 4,
+          "goalDifference": 2
+        },
+        {
+          "position": 4,
+          "team": {
+            "id": 81,
+            "name": "FC Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/aa/Fc_barcelona.svg"
+          },
+          "playedGames": 2,
+          "won": 2,
+          "draw": 0,
+          "lost": 0,
+          "points": 6,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2
+        },
+        {
+          "position": 5,
+          "team": {
+            "id": 86,
+            "name": "Real Madrid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/3/3f/Real_Madrid_Logo.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 5,
+          "goalsAgainst": 2,
+          "goalDifference": 3
+        },
+        {
+          "position": 6,
+          "team": {
+            "id": 298,
+            "name": "Girona FC",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/9/90/For_article_Girona_FC.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 3,
+          "goalsAgainst": 2,
+          "goalDifference": 1
+        },
+        {
+          "position": 7,
+          "team": {
+            "id": 94,
+            "name": "Villarreal CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/70/Villarreal_CF_logo.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 1,
+          "lost": 0,
+          "points": 4,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "goalDifference": 1
+        },
+        {
+          "position": 8,
+          "team": {
+            "id": 78,
+            "name": "Club Atlético de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/c/c1/Atletico_Madrid_logo.svg"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0
+        },
+        {
+          "position": 9,
+          "team": {
+            "id": 299,
+            "name": "SD Huesca",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Sd_huesca.png"
+          },
+          "playedGames": 3,
+          "won": 1,
+          "draw": 1,
+          "lost": 1,
+          "points": 4,
+          "goalsFor": 6,
+          "goalsAgainst": 11,
+          "goalDifference": -5
+        },
+        {
+          "position": 10,
+          "team": {
+            "id": 88,
+            "name": "Levante UD",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/1/1f/Levante_ud.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "goalDifference": 2
+        },
+        {
+          "position": 11,
+          "team": {
+            "id": 558,
+            "name": "RC Celta de Vigo",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/0/0c/Celta_Vigo.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
+          "goalsFor": 4,
+          "goalsAgainst": 4,
+          "goalDifference": 0
+        },
+        {
+          "position": 12,
+          "team": {
+            "id": 250,
+            "name": "Real Valladolid CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/6/6e/Real_Valladolid_Logo.svg"
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 3,
+          "lost": 0,
+          "points": 3,
+          "goalsFor": 3,
+          "goalsAgainst": 3,
+          "goalDifference": 0
+        },
+        {
+          "position": 13,
+          "team": {
+            "id": 82,
+            "name": "Getafe CF",
+            "crestUrl": "https://upload.wikimedia.org/wikipedia/en/7/7f/Getafe_logo.png"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        },
+        {
+          "position": 14,
+          "team": {
+            "id": 87,
+            "name": "Rayo Vallecano de Madrid",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/1/12/Rayo_vallecano_madrid.svg"
+          },
+          "playedGames": 2,
+          "won": 1,
+          "draw": 0,
+          "lost": 1,
+          "points": 3,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "goalDifference": 0
+        },
+        {
+          "position": 15,
+          "team": {
+            "id": 90,
+            "name": "Real Betis Balompié",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/4/43/Real_Betis.svg"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 2,
+          "lost": 0,
+          "points": 2,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "goalDifference": 0
+        },
+        {
+          "position": 16,
+          "team": {
+            "id": 95,
+            "name": "Valencia CF",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/75/FC_Valencia.svg"
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 2,
+          "lost": 1,
+          "points": 2,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        },
+        {
+          "position": 17,
+          "team": {
+            "id": 77,
+            "name": "Athletic Club",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/7/7f/Athletic_Club_Bilbao.svg"
+          },
+          "playedGames": 1,
+          "won": 0,
+          "draw": 1,
+          "lost": 0,
+          "points": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "goalDifference": 0
+        },
+        {
+          "position": 18,
+          "team": {
+            "id": 80,
+            "name": "RCD Espanyol de Barcelona",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/de/a/a7/RCD_Espanyol_De_Barcelona.svg"
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 1,
+          "lost": 2,
+          "points": 1,
+          "goalsFor": 2,
+          "goalsAgainst": 4,
+          "goalDifference": -2
+        },
+        {
+          "position": 19,
+          "team": {
+            "id": 278,
+            "name": "SD Eibar",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/7/75/SD_Eibar_logo.svg"
+          },
+          "playedGames": 2,
+          "won": 0,
+          "draw": 1,
+          "lost": 1,
+          "points": 1,
+          "goalsFor": 1,
+          "goalsAgainst": 3,
+          "goalDifference": -2
+        },
+        {
+          "position": 20,
+          "team": {
+            "id": 745,
+            "name": "CD Leganés",
+            "crestUrl": "http://upload.wikimedia.org/wikipedia/en/thumb/0/02/Club_Deportivo_Legan%C3%A9s.png/180px-Club_Deportivo_Legan%C3%A9s.png"
+          },
+          "playedGames": 3,
+          "won": 0,
+          "draw": 0,
+          "lost": 3,
+          "points": 0,
+          "goalsFor": 2,
+          "goalsAgainst": 7,
+          "goalDifference": -5
+        }
+      ]
+    }
+  ]
+}

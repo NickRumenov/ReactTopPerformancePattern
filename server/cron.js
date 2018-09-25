@@ -1,7 +1,7 @@
 const arg = process.argv.slice(2);
 
 const fs = require('fs');
-const json = fs.readFileSync('server/pl.json', 'utf8');
+const json = fs.readFileSync('./pl.json', 'utf8');
 const data = JSON.parse(json);
 
 const mysql = require('mysql');
@@ -19,10 +19,10 @@ connection.connect((function (err) {
     }
     console.log('======================= Linux and MySQL connected successfully ! =======================')
 }));
-connection.query('SHOW DATABASES;', function (error, results, fields) {
+/*connection.query('SHOW DATABASES;', function (error, results, fields) {
     if (error) throw error;
 });
-connection.end();
+connection.end();*/
 
 switch (arg[0]) {
     case 'pl':
@@ -32,10 +32,11 @@ switch (arg[0]) {
             let currTeam = x;
             values += '(' + currTeam.position +
                 ',\'' + currTeam.team.id +
+                '\',\'' + currTeam.playedGames +
+                '\',\'' + currTeam.points +
                 '\',\'' + currTeam.won +
                 '\',\'' + currTeam.draw +
                 '\',\'' + currTeam.lost +
-                '\',\'' + currTeam.points +
                 '\',\'' + currTeam.goalsFor +
                 '\',\'' + currTeam.goalsAgainst +
                 '\',\'' + currTeam.goalDifference +
@@ -43,14 +44,13 @@ switch (arg[0]) {
         })
         values = values.substring(0, values.length - 1);
 
-        let req = 'INSERT INTO pl (position, id, played, draw, lost, won, gf, ga, gd) VALUES ' + values + ';';
+        let req = 'INSERT INTO stats.stats (position, id, played, points, won, draw, lost, gf, ga, gd) VALUES ' + values + ';';
         console.log(req)
-
-        /*connection.query('INSERT INTO table_name (id, team, log0) VALUES ' + values + ';', function (error, results, fields) {
+        connection.query(req, function (error, results, fields) {
             if (error) throw error;
 
 
-        });*/
+        });
 
         break;
 

@@ -7,6 +7,11 @@ const app = express()
 const PORT = 8080
 const HOST = '0.0.0.0'
 
+/**
+ * We expect an environment variable after the command for running the script
+ * it should looks like: 'node server.js dev'
+ * we have two environments so far - dev and prod
+ */
 const args = process.argv.slice(2)
 const environment = args[0]
 
@@ -31,23 +36,30 @@ const connection = mysql.createConnection({
 
 connection.connect((function (err) {
     if (err) {
-        console.error('======================= error connecting: ' + err.stack);
+        console.error('============= Error connecting: ' + err.stack);
         return;
     }
-    console.log('======================= Linux and MySQL connected successfully !')
+    console.log('============= Linux and MySQL connected successfully !')
 }));
-/*connection.query('SHOW DATABASES;', function (error, results, fields) {
-    if (error) throw error;
-});*/
-connection.end();
 
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/dist/index.html')
 })
 
 app.get('/top4', function (req, success) {
-    success.send('ss');
+
+    let query = 'SELECT t.id, l.name AS league, t.name, s.position, s.played, s.gd, s.points \n' +
+        'FROM stats.teams AS t \n' +
+        'LEFT JOIN stats.stats AS s ON s.id = t.id\n' +
+        'LEFT JOIN stats.leagues AS l ON t.league = l.id\n' +
+        'ORDER BY s.position;';
+
+    connection.query(query, function (error, response, fields) {
+        if (error) throw error;
+        success.send(response);
+    });
 })
 
+
 app.listen(PORT, HOST)
-console.log(`Running on http://${HOST}:${PORT}`)
+console.log(`============= Running on http://${HOST}:${PORT}`)
