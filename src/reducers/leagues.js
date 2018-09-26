@@ -1,5 +1,7 @@
+const initialState = {
+};
 
-const leagues = (state = [], action) => {
+const leagues = (state = initialState, action) => {
     switch (action.type) {
         case 'TOP_4_LEAGUES':
             return action.payload

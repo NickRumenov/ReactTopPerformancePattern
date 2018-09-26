@@ -4,7 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Ranking from '../ranking/Ranking';
 import config from '../../config.js';
 import './content.css';
-import {fetchTop4Leagues} from "../../actions/actions";
 import connect from "react-redux/es/connect/connect";
 
 const {top4Leagues} = config;
@@ -12,14 +11,6 @@ const {top4Leagues} = config;
 class Content extends Component {
     constructor(props) {
         super(props);
-
-        fetch('http://localhost:8080/top4')
-            .then(function (response) {
-                return response.json();
-            })
-            .then(function (json) {
-                props.dispatch(fetchTop4Leagues(JSON.stringify(json)))
-            });
     }
 
     render() {
