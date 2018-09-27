@@ -15,24 +15,20 @@ node_modules/file-loader/dist/index.js:34 with the following
 ++ var context = options.context || this.rootContext;
 ``
 
-## Run prod mode
+### Prod mode
 
 ``node server.js``
-
-and open
 
 ``localhost:8080``
 
-## Run dev mode
+### Dev mode
 
 ``node server.js``
 
-Now, our app runs with prod files if we open localhost:8080 
-that`s why we have to run
+Our app is running with prod files if we open localhost:8080 
+that`s why we have to run the app on another console and another port with webpack-dev-server
 
-``npm run dev`` (on another console)
-
-and open
+``npm run dev`` 
 
 ``localhost:8081``
 
@@ -40,25 +36,28 @@ Then the server is listening for http requests on port 8080
 and the app is running on the webpack dev server.
 
 ## How to run it with docker
-### Build the image
+We have to two run two images: nodejs/reactjs and linuxserver/mysql
+
+### NodeJS/ReactJS 
+Build the image
+
 ``docker build -t nick1r1/reacttopperformancepattern .``
-### Run the image
+
 ``docker run -p 49160:8080 -d nick1r1/reacttopperformancepattern``
-### Finally, we have to build it
+
 ``docker exec -it <ContainerID> /bin/bash``
+
 ``npm run build``
-### Run in your browser
+
 ``http://localhost:49160/``
 
-### For the Server-Side we use **linuxserver/mysql** image
-some server side commands
+### Linux/MySQL
+Clone the image from docker hub
 
 ``docker exec -it mysql /bin/bash``
 
 ``mysql -u root -p ``
 
-enter password 
-
-then we have command prompt 
+enter your password then we have command prompt for mysql
 
 ``mysql>``               
