@@ -19,10 +19,6 @@ connection.connect((function (err) {
     }
     console.log('======================= Linux and MySQL connected successfully ! =======================')
 }));
-/*connection.query('SHOW DATABASES;', function (error, results, fields) {
-    if (error) throw error;
-});
-connection.end();*/
 
 switch (arg[0]) {
     case 'pl':

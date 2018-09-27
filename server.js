@@ -6,28 +6,16 @@ const cors = require('cors')
 
 const app = express()
 const PORT = 8080
-const HOST = '0.0.0.0'
+const HOST = 'localhost'
 
-/**
- * We expect an environment variable after the command for running the script
- * it should looks like: 'node server.js dev'
- * we have two environments so far - dev and prod
- */
-/*const args = process.argv.slice(2)
-const environment = args[0]
-
-let appFolder = '';
-if (environment === 'prod') {
-    appFolder = 'dist';
-} else if (environment === 'dev') {
-    appFolder = 'src';
-} else {
-    console.log('You should add environment arguments as a first parameter')
-    return;
-}*/
 app.use(cors())
-app.use(express.static('dist'))
 
+app.use(express.static('dist'))
+app.listen(PORT, HOST)
+console.log(`================== Running on http://${HOST}:${PORT} ==================`)
+
+
+// MySQL connection
 const connection = mysql.createConnection({
     host: 'localhost',
     port: 3306,
@@ -40,9 +28,11 @@ connection.connect((function (err) {
         console.error('============= Error connecting: ' + err.stack);
         return;
     }
-    console.log('============= Linux and MySQL connected successfully !')
+    console.log('============= Linux and MySQL connected successfully ! =============')
 }));
 
+
+// API Routes
 app.get('/', function (req, res) {
     res.sendFile(__dirname + '/dist/index.html')
 })
@@ -61,5 +51,3 @@ app.get('/top4', function (req, success) {
     });
 })
 
-app.listen(PORT, HOST)
-console.log(`============= Running on http://${HOST}:${PORT}`)
