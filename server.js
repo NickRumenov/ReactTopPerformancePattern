@@ -2,7 +2,7 @@
 
 const express = require('express')
 const mysql = require('mysql');
-var cors = require('cors')
+const cors = require('cors')
 
 const app = express()
 const PORT = 8080
@@ -49,7 +49,7 @@ app.get('/', function (req, res) {
 
 app.get('/top4', function (req, success) {
 
-    let query = 'SELECT t.id, l.name AS league, t.name, s.position, s.played, s.gd, s.points \n' +
+    let query = 'SELECT t.id, t.league AS leagueId, l.name AS league, t.name, s.position, s.played, s.gd, s.points \n' +
         'FROM stats.teams AS t \n' +
         'LEFT JOIN stats.stats AS s ON s.id = t.id\n' +
         'LEFT JOIN stats.leagues AS l ON t.league = l.id\n' +

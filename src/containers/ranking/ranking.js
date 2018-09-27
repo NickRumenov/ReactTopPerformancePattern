@@ -7,25 +7,30 @@ import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 
 import './ranking.css';
-
-function createData(name, calories, fat, carbs, protein) {
-    return {name, calories, fat, carbs, protein};
-}
-
-const rows = [
-    createData(2, 'Fren', 6, 24, 4.0),
-    createData(3, 'Icecea', 237, 9.0, 37, 4.3),
-    createData(11, 'Eclair', 22, 16, 24, 6.0),
-    createData(1, 'Cupcake', 305, 3.7, 67, 4.3),
-    createData(22, 'Gingerb', 356, 16.0, 49, 3.9),
-];
+import connect from "react-redux/es/connect/connect";
+import config from "../../config";
 
 class Ranking extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            formatted4Leagues: {}
+        }
+    }
+
+    static getDerivedStateFromProps(props, state) {
+        if (props.formatted4Leagues !== state.formatted4Leagues) {
+
+            return {
+                formatted4Leagues: props.formatted4Leagues
+            };
+        }
     }
 
     render() {
+
+        let currentLeague = this.props.formatted4Leagues[this.props.leagueId];
+
         return (
             <Paper>
                 <Table>
@@ -39,14 +44,14 @@ class Ranking extends Component {
                         </TableRow>
                     </TableHead>
                     <TableBody>
-                        {rows.map(row => {
+                        {currentLeague.map(team => {
                             return (
-                                <TableRow key={row.name}>
-                                    <TableCell>{row.name}</TableCell>
-                                    <TableCell numeric>{row.calories}</TableCell>
-                                    <TableCell numeric>{row.fat}</TableCell>
-                                    <TableCell numeric>{row.carbs}</TableCell>
-                                    <TableCell numeric>{row.protein}</TableCell>
+                                <TableRow key={team.id}>
+                                    <TableCell className={'num-stat'} numeric>{team.position}</TableCell>
+                                    <TableCell className={'team-name'}>{team.name}</TableCell>
+                                    <TableCell className={'num-stat'} numeric>{team.played}</TableCell>
+                                    <TableCell className={'num-stat'} numeric>{team.gd}</TableCell>
+                                    <TableCell className={'num-stat'} numeric>{team.points}</TableCell>
                                 </TableRow>
                             );
                         })}
@@ -57,4 +62,27 @@ class Ranking extends Component {
     }
 }
 
-export default Ranking
+
+const mapStateToProps = state => {
+    const {top4Leagues} = config;
+    let formatted4Leagues = [];
+
+    top4Leagues.map(league => {
+        formatted4Leagues[league.id] = [];
+        if (Object.keys(state.top4Leagues).length > 0) {
+            JSON.parse(state.top4Leagues).map(team => {
+                if (league.id === team.leagueId) {
+                    formatted4Leagues[league.id].push(team);
+                }
+            })
+        }
+    })
+
+    return {
+        formatted4Leagues
+    }
+}
+
+export default connect(
+    mapStateToProps
+)(Ranking)

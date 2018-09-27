@@ -1,3 +1,7 @@
 .container{
   overflow-x: hidden;
 }
+body{
+  background: url('./assets/hero-wallpaper.png') 50% 0;
+  overflow-x: hidden;
+}

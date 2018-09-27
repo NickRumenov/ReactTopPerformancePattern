@@ -1,40 +1,39 @@
 .wrapper{
-    background: url('../../assets/hero-wallpaper.png') 50% 0;
-    height: 710px;
-    overflow-x: hidden;
     padding: 0 2%;
 }
 .card{
-    margin: 100px 2% 0 2%;
-    height: 100%;
+    margin: 18% 2% 0 2%;
     display: flex;
     flex-direction: column;
 }
+.content-grid{
+    padding: 0 20px !important;
+}
 /*TODO fix DRY*/
 .premier_league{
-    background: url('../../assets/league_logos/premier_league.png') 50% 0;
-    height: 60px;
-    width: 60px;
+    background: url('../../assets/league_logos/premier_league.png') 45% 0;
+    height: 45px;
+    width: 45px;
 }
 .serie_a{
-    background: url('../../assets/league_logos/serie_a.png') 50% 0;
-    height: 60px;
-    width: 60px;
+    background: url('../../assets/league_logos/serie_a.png') 45% 0;
+    height: 45px;
+    width: 45px;
 }
 .la_liga{
-    background: url('../../assets/league_logos/la_liga.png') 50% 0;
-    height: 60px;
-    width: 60px;
+    background: url('../../assets/league_logos/la_liga.png') 45% 0;
+    height: 45px;
+    width: 45px;
 }
 .bundesliga{
-    background: url('../../assets/league_logos/bundesliga.png') 50% 0;
-    height: 60px;
-    width: 60px;
+    background: url('../../assets/league_logos/bundesliga.png') 45% 0;
+    height: 45px;
+    width: 45px;
 }
 .card-title{
     display: flex;
-    height: 60px;
-    line-height: 60px;
+    height: 45px;
+    line-height: 45px;
     padding-right: 40px;
     margin: 0;
 }

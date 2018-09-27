@@ -4,9 +4,6 @@ import Grid from '@material-ui/core/Grid';
 import Ranking from '../ranking/Ranking';
 import config from '../../config.js';
 import './content.css';
-import connect from "react-redux/es/connect/connect";
-
-const {top4Leagues} = config;
 
 class Content extends Component {
     constructor(props) {
@@ -14,29 +11,26 @@ class Content extends Component {
     }
 
     render() {
+        const {top4Leagues} = config;
+
         return (
             <div className={'wrapper'}>
                 <Grid container spacing={40}>
                     {top4Leagues.map(league => (
-                        <Grid item key={league.name} sm={6} md={4} lg={3}>
-                            <Card className={'card'} >
+                        <Grid className={'content-grid'} item key={league.id} sm={6} md={4} lg={3}>
+                            <Card className={'card'}>
                                 <header className={'card-title'}>
                                     <img className={league.logo}/>
                                     <p className={'league-name'}>{league.name}</p>
                                 </header>
-                                <Ranking/>
+                                <Ranking leagueId={league.id}/>
                             </Card>
-                        </Grid>
-                    ))}
+                        </Grid>)
+                    )}
                 </Grid>
             </div>
         );
     }
 }
 
-const mapStateToProps = state => ({
-})
-
-export default connect(
-    mapStateToProps
-)(Content)
+export default Content

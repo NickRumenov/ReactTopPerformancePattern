@@ -1,7 +1,5 @@
-const initialState = {
-};
 
-const leagues = (state = initialState, action) => {
+const top4Leagues = (state = {}, action) => {
     switch (action.type) {
         case 'TOP_4_LEAGUES':
             return action.payload
@@ -10,4 +8,4 @@ const leagues = (state = initialState, action) => {
     }
 };
 
-export default leagues;
+export default top4Leagues;

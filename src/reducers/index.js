@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import leagues from './leagues';
+import top4Leagues from './leagues';
 
 export default combineReducers({
-    leagues
+    top4Leagues
 })
