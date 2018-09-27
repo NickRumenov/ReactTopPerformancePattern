@@ -38,7 +38,11 @@ and the app is running on the webpack dev server.
 For both modes we have to have linuxserver/mysql container for hosting MySQL DB
 
 ## How to run it with docker
-We have to run two containers form the images: nodejs/reactjs and linuxserver/mysql
+We have to run two containers from the images: 
+
+**nodejs/reactjs** - we create it with Dockerfile
+    
+**linuxserver/mysql** - download it from docker hub
 
 ### NodeJS/ReactJS 
 Build the image
@@ -54,7 +58,7 @@ Build the image
 ``http://localhost:49160/``
 
 ### Linux/MySQL
-Clone the image from docker hub
+Pull the image from docker hub
 
 ``docker exec -it mysql /bin/bash``
 
