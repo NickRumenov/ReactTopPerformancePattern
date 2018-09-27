@@ -35,8 +35,10 @@ that`s why we have to run the app on another console and another port with webpa
 Then the server is listening for http requests on port 8080
 and the app is running on the webpack dev server.
 
+For both modes we have to have linuxserver/mysql container for hosting MySQL DB
+
 ## How to run it with docker
-We have to two run two images: nodejs/reactjs and linuxserver/mysql
+We have to run two containers form the images: nodejs/reactjs and linuxserver/mysql
 
 ### NodeJS/ReactJS 
 Build the image
