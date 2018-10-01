@@ -46,7 +46,7 @@ class Ranking extends Component {
                     <TableBody>
                         {currentLeague.map(team => {
                             return (
-                                <TableRow key={team.id}>
+                                <TableRow className={'team-row'}  key={team.id}>
                                     <TableCell className={'num-stat'} numeric>{team.position}</TableCell>
                                     <TableCell className={'team-name'}>{team.name}</TableCell>
                                     <TableCell className={'num-stat'} numeric>{team.played}</TableCell>
